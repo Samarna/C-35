@@ -2,6 +2,10 @@ class Form {
 
   constructor() {
     this.input = createInput("Name");
+    this.email = createInput("Email");
+    this.ques = create element('h3');
+    this.yes = createButton("yes");
+    this.no = createButton("no");
     this.button = createButton('Play');
     this.greeting = createElement('h2');
     this.moto = createElement('h2');
@@ -17,11 +21,11 @@ class Form {
 
   display(){
     fill("white");
-    this.title.html("Let's Paint !");
+    this.title.html("Let's Bring the change !");
     this.title.position(displayWidth/2 - 50, 0);
 
     fill("white");
-    this.moto.html("The place where you can build an artwork together.....");
+    this.moto.html("For a better future.....And for a better mind......");
     this.moto.position(displayWidth/2 - 200, displayHeight-880);
 
     this.input.position(displayWidth/2 - 40 , displayHeight/2 - 80);
