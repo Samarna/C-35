@@ -22,7 +22,7 @@ function setup(){
 
 
 function draw(){
-  background("pink");
+  background("green");
   if(playerCount === 4){
     game.update(1);
   }
