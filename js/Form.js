@@ -3,7 +3,7 @@ class Form {
   constructor() {
     this.input = createInput("Name");
     this.email = createInput("Email");
-    this.ques = create element('h3');
+    this.ques = createElement('h3');
     this.yes = createButton("yes");
     this.no = createButton("no");
     this.button = createButton('Play');
